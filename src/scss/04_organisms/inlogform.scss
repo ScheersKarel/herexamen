@@ -1,6 +1,11 @@
 .inlogForm {
     margin-top: 80px;
 
+    &__title {
+        font-weight: 600;
+        color: $titleColor;
+    }
+
     &__subTitle {
         margin-top: -20px;
         margin-left: 2px;
@@ -79,5 +84,12 @@
     &__socials {
         display: flex;
         justify-content: center;
+    }
+
+    &__withoutPassword {
+        position: absolute;
+        margin-top: 32px;
+        color: $darkgrayTextColor;
+        font-size: 14px;
     }
 }

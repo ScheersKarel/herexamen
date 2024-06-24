@@ -7,6 +7,10 @@
 .inlogForm {
   margin-top: 80px;
 }
+.inlogForm__title {
+  font-weight: 600;
+  color: #291532;
+}
 .inlogForm__subTitle {
   margin-top: -20px;
   margin-left: 2px;
@@ -76,6 +80,12 @@
 .inlogForm__socials {
   display: flex;
   justify-content: center;
+}
+.inlogForm__withoutPassword {
+  position: absolute;
+  margin-top: 32px;
+  color: #545255;
+  font-size: 14px;
 }
 
 body {
