@@ -1,0 +1,42 @@
+.reward {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-bottom: 20px;
+
+    &__image {
+        margin-top: 10px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+
+        &__points {
+            margin-left: 60px;
+
+            &__bold {
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__progressbar {
+        margin-top: -10px;
+        margin-left: 70px;
+        width: 400%;
+        height: 5px;
+        border-radius: 10px;
+        background-color: plum;
+    }
+
+    &__progressbarFilled {
+        margin-top: -10px;
+        width: 90%;
+        height: 5px;
+        border-radius: 10px;
+        background-color: $primaryInBoxes;
+    }
+}

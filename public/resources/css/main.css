@@ -57,6 +57,43 @@
   color: #545255;
 }
 
+.reward {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding-bottom: 20px;
+}
+.reward__image {
+  margin-top: 10px;
+}
+.reward__content {
+  display: flex;
+  justify-content: space-between;
+}
+.reward__content__points {
+  margin-left: 60px;
+}
+.reward__content__points__bold {
+  font-weight: bold;
+}
+.reward__progressbar {
+  margin-top: -10px;
+  margin-left: 70px;
+  width: 400%;
+  height: 5px;
+  border-radius: 10px;
+  background-color: plum;
+}
+.reward__progressbarFilled {
+  margin-top: -10px;
+  width: 90%;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #8E00CC;
+}
+
 .inlogForm {
   margin-top: 80px;
 }
