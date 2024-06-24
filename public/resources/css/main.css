@@ -16,7 +16,7 @@
   margin-left: 2px;
   color: #545255;
 }
-.inlogForm__gebruikersnaam {
+.inlogForm__username {
   width: 95%;
   height: 48px;
   margin-top: 16px;
@@ -26,7 +26,7 @@
   padding-left: 5%;
   color: #545255;
 }
-.inlogForm__ww {
+.inlogForm__password {
   width: 95%;
   height: 48px;
   margin-top: 40px;
@@ -40,11 +40,11 @@
   margin-top: 16px;
   border-width: 0.5px;
 }
-.inlogForm__onthouden {
+.inlogForm__remember {
   font-size: 14px;
   color: #545255;
 }
-.inlogForm__wwVergeten {
+.inlogForm__forgotPassword {
   position: absolute;
   font-size: 14px;
   color: #545255;

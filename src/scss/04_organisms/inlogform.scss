@@ -12,7 +12,7 @@
         color: #545255;
     }
 
-    &__gebruikersnaam {
+    &__username {
         width: 95%;
         height: 48px;
         margin-top: 16px;
@@ -23,7 +23,7 @@
         color: $darkgrayTextColor;
     }
 
-    &__ww {
+    &__password {
         width: 95%;
         height: 48px;
         margin-top: 40px;
@@ -39,12 +39,12 @@
         border-width: 0.5px;
     }
 
-    &__onthouden {
+    &__remember {
         font-size: 14px;
         color: $darkgrayTextColor;
     }
 
-    &__wwVergeten {
+    &__forgotPassword {
         position: absolute;
         font-size: 14px;
         color: $darkgrayTextColor;
