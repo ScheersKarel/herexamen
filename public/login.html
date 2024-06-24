@@ -10,16 +10,30 @@
 
 <body>
     <div class="container">
-        <img src="resources/images/logo.png">
-        <div class="login">
-            <h1>inloggen</h1>
+        <img class="cornerR" src="resources/images/cornerR.png" alt="">
+
+        <img class="logo" src="resources/images/logo.png">
+        <div class="inlogForm">
+            <h1 class="inlogForm__title">Welkom!</h1>
+            <p class="inlogForm__subTitle">Log in om verder te gaan</p>
             <form action="login.php" method="post">
-                <input type="text" name="username" placeholder="Gebruikersnaam" required>
-                <input type="password" name="password" placeholder="Wachtwoord" required>
-                <button type="submit">inloggen</button>
+                <input class="inlogForm__gebruikersnaam" type="text" name="username" placeholder="Gebruikersnaam"
+                    required>
+                <input class="inlogForm__ww" type="password" name="password" placeholder="Wachtwoord" required>
+                <input class="inlogForm__checkbox" type="checkbox"> <label
+                    class="inlogForm__onthouden">Onthouden</label>
+                <a href="#" class="inlogForm__wwVergeten">Wachtwoord vergeten?</a>
+                <button class="inlogForm__button" type="submit">inloggen</button>
             </form>
-            <a href="register.php">Registreren</a>
+            <hr class="inlogForm__line">
+            <p class="inlogForm__otherlogin">of log in met</p>
+            <div class="inlogForm__socials">
+                <img src="resources/images/facebook.png" alt="">
+                <img src="resources/images/google.png" alt="">
+                <img src="resources/images/apple.png" alt="">
+            </div>
         </div>
+        <img class="cornerL" src="resources/images/cornerL.png" alt="">
     </div>
 </body>
 

@@ -1,3 +1,101 @@
-p {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+.logo {
+  margin-top: 64px;
+  width: 28%;
+}
+
+.inlogForm {
+  margin-top: 80px;
+}
+.inlogForm__subTitle {
+  margin-top: -20px;
+  margin-left: 2px;
+  color: #545255;
+}
+.inlogForm__gebruikersnaam {
+  width: 95%;
+  height: 48px;
+  margin-top: 16px;
+  font-size: 16px;
+  border-color: rgba(41, 21, 50, 0.15);
+  border-radius: 5px;
+  padding-left: 5%;
+  color: #545255;
+}
+.inlogForm__ww {
+  width: 95%;
+  height: 48px;
+  margin-top: 40px;
+  font-size: 16px;
+  border-color: rgba(41, 21, 50, 0.15);
+  border-radius: 5px;
+  padding-left: 5%;
+  color: #545255;
+}
+.inlogForm__checkbox {
+  margin-top: 16px;
+  border-width: 0.5px;
+}
+.inlogForm__onthouden {
+  font-size: 14px;
+  color: #545255;
+}
+.inlogForm__wwVergeten {
+  position: absolute;
+  font-size: 14px;
+  color: #545255;
+  right: 0;
+  margin-top: 16px;
+  margin-right: 6%;
+}
+.inlogForm__button {
+  width: 100%;
+  height: 48px;
+  margin-top: 40px;
+  background-color: #8E00CC;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.inlogForm__line {
+  margin-top: 40px;
+  color: lightgray;
+  font-size: 14px;
+}
+.inlogForm__otherlogin {
+  margin-top: -18px;
+  color: #545255;
+  font-size: 14px;
+  width: fit-content;
+  padding: 0px 10px;
+  background-color: #F3F1F3;
+  margin-left: 36%;
+}
+.inlogForm__socials {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #F3F1F3;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.cornerL {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.cornerR {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

@@ -1,3 +1,9 @@
-p {
-    color: red;
-}
+@import "00_common/vars.scss";
+
+@import "01_fundaments/logo.scss";
+
+@import "04_organisms/inlogform.scss";
+
+@import "06_pages/body.scss";
+@import "06_pages/container.scss";
+@import "06_pages/corner.scss";
