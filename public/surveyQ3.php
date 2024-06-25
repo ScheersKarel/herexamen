@@ -4,33 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey question 2</title>
+    <title>Survey question 3</title>
     <link rel="stylesheet" href="./resources/css/main.css">
 </head>
 
 <body>
     <div class="container">
-        <img class="backArrow" src="resources/images/backArrow.png" alt="">
+        <a href="surveyQ2.php"><img class="backArrow" src="resources/images/backArrow.png" alt=""></a>
 
-        <img src="resources/images/progressbarSurvey2.png" alt="" class="surveyProgres">
+        <img src="resources/images/progressbarSurvey3.png" alt="" class="surveyProgres">
 
         <div class="surveyContent">
-            <p class="surveyContent__number">Vraag <span>2</span>/3</p>
-            <h1 class="surveyContent__question">Hoe druk is het op dit moment?</h1>
+            <p class="surveyContent__number">Vraag <span>3</span>/3</p>
+            <h1 class="surveyContent__question">Hoe voel je je op dit moment?</h1>
             <div class="surveyContent__slider">
-                <div class="surveyContent__slider__left">helemaal niet druk</div>
-                <div class="surveyContent__slider__right">ontzettend druk</div>
+                <div class="surveyContent__slider__left"><img src="resources/images/sleepy.png" alt=""></div>
+                <div class="surveyContent__slider__right"><img src="resources/images/klaarwakker.png" alt=""></div>
                 <input type="range" min="0" max="10" value="5" class="surveyContent__slider__slider">
+                <div class="surveyContent__slider__left">Slaperig</div>
+                <div class="surveyContent__slider__right">Klaarwakker</div>
             </div>
 
-            <h2 class="surveyContent__question">Ervaar je deze drukte als iets positief of iets negatiefs?</h2>
+
             <div class="surveyContent__slider">
-                <div class="surveyContent__slider__left">Heel negatief</div>
-                <div class="surveyContent__slider__right">Heel positief</div>
+                <div class="surveyContent__slider__left"><img src="resources/images/verdrietig.png" alt=""></div>
+                <div class="surveyContent__slider__right"><img src="resources/images/Grinning Face With Smiling Eyes.png" alt=""></div>
                 <input type="range" min="0" max="10" value="5" class="surveyContent__slider__slider">
+                <div class="surveyContent__slider__left">verdrietig</div>
+                <div class="surveyContent__slider__right">Blij</div>
             </div>
 
-            <a href="surveyQ3.php"><button class="surveyContent__button">Naar vraag 3</button></a>
+            <a href="surveyQ3.php"><button class="surveyContent__button">Antwoorden verzenden</button></a>
         </div>
 
 

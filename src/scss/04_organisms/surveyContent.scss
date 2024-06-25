@@ -15,7 +15,7 @@
     &__question {
         font-size: 28px;
         margin-top: 32px;
-        margin-bottom: -16px;
+        margin-bottom: -8px;
     }
 
     &__image {
@@ -29,7 +29,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-bottom: 80px;
+        margin-bottom: 56px;
 
         &__left {
             display: flex;
@@ -63,6 +63,7 @@
             outline: none;
             padding: 0;
             margin: 0;
+            margin-bottom: 32px;
         }
 
         &__slider::-webkit-slider-thumb {

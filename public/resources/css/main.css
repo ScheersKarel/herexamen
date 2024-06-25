@@ -228,7 +228,7 @@
 .surveyContent__question {
   font-size: 28px;
   margin-top: 32px;
-  margin-bottom: -16px;
+  margin-bottom: -8px;
 }
 .surveyContent__image {
   margin-top: 16px;
@@ -240,7 +240,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 80px;
+  margin-bottom: 56px;
 }
 .surveyContent__slider__left {
   display: flex;
@@ -271,6 +271,7 @@
   outline: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 32px;
 }
 .surveyContent__slider__slider::-webkit-slider-thumb {
   -webkit-appearance: none;

@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        <img class="backArrow" src="resources/images/backArrow.png" alt="">
+        <a href="surveyQ1.php"><img class="backArrow" src="resources/images/backArrow.png" alt=""></a>
 
         <img src="resources/images/progressbarSurvey2.png" alt="" class="surveyProgres">
 
