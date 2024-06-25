@@ -1,42 +1,54 @@
 .reward {
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    padding-bottom: 20px;
+    margin-top: 48px;
 
-    &__image {
-        margin-top: 10px;
-    }
+    &__card {
+        background-color: white;
+        border-radius: 5px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        padding-bottom: 20px;
+        margin-top: 32px;
 
-    &__content {
-        display: flex;
-        justify-content: space-between;
+        &__image {
+            margin-top: 10px;
+        }
 
-        &__points {
-            margin-left: 60px;
+        &__content {
+            display: flex;
+            justify-content: space-between;
 
-            &__bold {
-                font-weight: bold;
+            &__points {
+                &__bold {
+                    font-weight: bold;
+                }
             }
         }
-    }
 
-    &__progressbar {
-        margin-top: -10px;
-        margin-left: 70px;
-        width: 400%;
-        height: 5px;
-        border-radius: 10px;
-        background-color: plum;
-    }
+        &__progressbar {
+            margin-top: -10px;
+            margin-left: 70px;
+            width: 400%;
+            height: 7px;
+            border-radius: 10px;
+            background-color: plum;
+        }
 
-    &__progressbarFilled {
-        margin-top: -10px;
-        width: 90%;
-        height: 5px;
-        border-radius: 10px;
-        background-color: $primaryInBoxes;
+        &__progressbarFilledMojito {
+            margin-top: -10px;
+            width: 90%;
+            height: 7px;
+            border-radius: 10px;
+            background-color: $primaryInBoxes;
+        }
+
+        &__progressbarFilledCheeseburger {
+            margin-top: -10px;
+            width: 25%;
+            height: 7px;
+            border-radius: 10px;
+            background-color: $primaryInBoxes;
+        }
+
     }
 }

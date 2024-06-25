@@ -58,38 +58,46 @@
 }
 
 .reward {
+  margin-top: 48px;
+}
+.reward__card {
   background-color: white;
   border-radius: 5px;
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr 4fr;
   padding-bottom: 20px;
+  margin-top: 32px;
 }
-.reward__image {
+.reward__card__image {
   margin-top: 10px;
 }
-.reward__content {
+.reward__card__content {
   display: flex;
   justify-content: space-between;
 }
-.reward__content__points {
-  margin-left: 60px;
-}
-.reward__content__points__bold {
+.reward__card__content__points__bold {
   font-weight: bold;
 }
-.reward__progressbar {
+.reward__card__progressbar {
   margin-top: -10px;
   margin-left: 70px;
   width: 400%;
-  height: 5px;
+  height: 7px;
   border-radius: 10px;
   background-color: plum;
 }
-.reward__progressbarFilled {
+.reward__card__progressbarFilledMojito {
   margin-top: -10px;
   width: 90%;
-  height: 5px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #8E00CC;
+}
+.reward__card__progressbarFilledCheeseburger {
+  margin-top: -10px;
+  width: 25%;
+  height: 7px;
   border-radius: 10px;
   background-color: #8E00CC;
 }
