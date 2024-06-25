@@ -24,7 +24,7 @@
                 <p class="enquete__time">00:02:<span class="enquete__time__seconds">45</span></p>
                 <p class="enquete__normalText">om punten te verdienen</p>
             </div>
-            <button class="enquete__button">Start</button>
+            <a href="surveyQ1.php"><button class="enquete__button">Start</button></a>
         </div>
 
         <div class="enquete">
@@ -33,7 +33,7 @@
                 <p class="enquete__time">00:10:<span class="enquete__time__seconds">32</span></p>
                 <p class="enquete__normalText">om punten te verdienen</p>
             </div>
-            <button class="enquete__button">Start</button>
+            <a href="surveyQ1.php"><button class="enquete__button">Start</button></a>
         </div>
 
 

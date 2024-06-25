@@ -34,7 +34,7 @@
                 <div class="surveyContent__slider__right">Blij</div>
             </div>
 
-            <a href="surveyQ3.php"><button class="surveyContent__button">Antwoorden verzenden</button></a>
+            <a href="collectPoints.html"><button class="surveyContent__button">Antwoorden verzenden</button></a>
         </div>
 
 

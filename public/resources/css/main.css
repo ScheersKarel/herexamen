@@ -13,6 +13,10 @@
   margin-left: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .points {
   position: absolute;
   right: 0;
@@ -296,6 +300,52 @@
   cursor: pointer;
   float: right;
   margin-bottom: 40px;
+}
+
+.collect__image {
+  margin-top: 80px;
+  width: 60%;
+  margin-left: 20%;
+}
+.collect__title {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.collect__paraf {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.collect__points {
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: #58B7B7;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 0px 15px;
+}
+.collect__button {
+  margin-top: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: #8E00CC;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
 }
 
 body {
