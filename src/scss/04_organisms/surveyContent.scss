@@ -2,18 +2,18 @@
     margin-top: 32px;
 
     &__number {
-        font-size: 18px;
+        font-size: $h6;
         color: $darkgrayTextColor;
     }
 
     &__number span {
         font-weight: bold;
-        font-size: 22px;
+        font-size: $h4;
         color: black;
     }
 
     &__question {
-        font-size: 28px;
+        font-size: $h3;
         margin-top: 32px;
         margin-bottom: -8px;
     }
@@ -84,7 +84,7 @@
         background-color: $primaryInBoxes;
         border: none;
         color: white;
-        font-size: 18px;
+        font-size: $h6;
         padding: 10px 20px;
         font-weight: bold;
         border-radius: 2px;

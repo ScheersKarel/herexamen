@@ -16,7 +16,7 @@
         width: 95%;
         height: 48px;
         margin-top: 16px;
-        font-size: 16px;
+        font-size: $fontsizeNormal;
         border-color: rgba(41, 21, 50, 0.15);
         border-radius: 5px;
         padding-left: 5%;
@@ -27,7 +27,7 @@
         width: 95%;
         height: 48px;
         margin-top: 40px;
-        font-size: 16px;
+        font-size: $fontsizeNormal;
         border-color: rgba(41, 21, 50, 0.15);
         border-radius: 5px;
         padding-left: 5%;
@@ -40,13 +40,13 @@
     }
 
     &__remember {
-        font-size: 14px;
+        font-size: $fontsizeSmall;
         color: $darkgrayTextColor;
     }
 
     &__forgotPassword {
         position: absolute;
-        font-size: 14px;
+        font-size: $fontsizeSmall;
         color: $darkgrayTextColor;
         right: 0;
         margin-top: 16px;
@@ -61,7 +61,7 @@
         border: none;
         border-radius: 5px;
         color: white;
-        font-size: 18px;
+        font-size: $h6;
         font-weight: 600;
     }
 
@@ -74,10 +74,10 @@
     &__otherlogin {
         margin-top: -18px;
         color: $darkgrayTextColor;
-        font-size: 14px;
+        font-size: $fontsizeSmall;
         width: fit-content;
         padding: 0px 10px;
-        background-color: #F3F1F3;
+        background-color: $backgroundColor;
         margin-left: 36%;
     }
 
@@ -90,6 +90,6 @@
         position: absolute;
         margin-top: 32px;
         color: $darkgrayTextColor;
-        font-size: 14px;
+        font-size: $fontsizeSmall;
     }
 }
