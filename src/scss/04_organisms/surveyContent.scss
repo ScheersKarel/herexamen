@@ -14,6 +14,8 @@
 
     &__question {
         font-size: 28px;
+        margin-top: 32px;
+        margin-bottom: -16px;
     }
 
     &__image {
@@ -27,6 +29,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 80px;
 
         &__left {
             display: flex;
@@ -83,7 +86,6 @@
         font-size: 18px;
         padding: 10px 20px;
         font-weight: bold;
-        margin-top: 40px;
         border-radius: 2px;
         cursor: pointer;
         float: right;

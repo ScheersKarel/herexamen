@@ -12,7 +12,7 @@
     <div class="container">
         <img class="backArrow" src="resources/images/backArrow.png" alt="">
 
-        <img src="resources/images/progressbarSurevey1.png" alt="" class="surveyProgres">
+        <img src="resources/images/progressbarSurvey1.png" alt="" class="surveyProgres">
 
         <div class="surveyContent">
             <p class="surveyContent__number">Vraag <span>1</span>/3</p>
@@ -24,7 +24,7 @@
                 <input type="range" min="0" max="10" value="5" class="surveyContent__slider__slider">
             </div>
 
-            <button class="surveyContent__button">Naar vraag 2</button>
+            <a href="surveyQ2.php"><button class="surveyContent__button">Naar vraag 2</button></a>
         </div>
     </div>
     <?php
