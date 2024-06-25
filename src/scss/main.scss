@@ -1,6 +1,8 @@
 @import "00_common/vars.scss";
 
 @import "01_fundaments/logo.scss";
+@import "01_fundaments/backArrow.scss";
+@import "01_fundaments/surveyProgres.scss";
 
 @import "02_atoms/points.scss";
 
@@ -8,6 +10,8 @@
 @import "03_molecules/reward.scss";
 
 @import "04_organisms/inlogform.scss";
+@import "04_organisms/footer.scss";
+@import "04_organisms/surveyContent.scss";
 
 @import "06_pages/body.scss";
 @import "06_pages/container.scss";
