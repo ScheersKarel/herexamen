@@ -84,6 +84,7 @@
     &__socials {
         display: flex;
         justify-content: center;
+        margin-bottom: 48px;
     }
 
     &__withoutPassword {
@@ -91,5 +92,7 @@
         margin-top: 32px;
         color: $darkgrayTextColor;
         font-size: $fontsizeSmall;
+        border-bottom: 1px solid $darkgrayTextColor;
+        margin-bottom: 48px;
     }
 }
