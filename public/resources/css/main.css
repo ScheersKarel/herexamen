@@ -107,12 +107,66 @@ a {
   border-radius: 10px;
   background-color: #8E00CC;
 }
+.reward__card__progressbarFilledBier {
+  margin-top: -10px;
+  width: 100%;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #8E00CC;
+}
 .reward__card__progressbarFilledCheeseburger {
   margin-top: -10px;
   width: 25%;
   height: 7px;
   border-radius: 10px;
   background-color: #8E00CC;
+}
+.reward__card__progressbarFilledFriet {
+  margin-top: -10px;
+  width: 19%;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #8E00CC;
+}
+.reward__extra {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10%;
+  margin-top: -20px;
+  font-size: 14px;
+}
+.reward__extra__container {
+  display: flex;
+  justify-content: space-between;
+}
+.reward__extra__button {
+  background-color: #545255;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 16px;
+  padding: 5px 15px;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.reward__extra__button__active {
+  background-color: #8E00CC;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 16px;
+  padding: 5px 15px;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.reward__extra__line {
+  margin-top: 20px;
+  width: 90%;
+  margin-left: -2px;
 }
 
 .inlogForm {
@@ -191,12 +245,58 @@ a {
 .inlogForm__socials {
   display: flex;
   justify-content: center;
+  margin-bottom: 48px;
 }
 .inlogForm__withoutPassword {
   position: absolute;
   margin-top: 32px;
   color: #545255;
   font-size: 14px;
+  border-bottom: 1px solid #545255;
+  margin-bottom: 48px;
+}
+
+.header {
+  background: linear-gradient(to bottom, #8E00CC, white);
+}
+.header__logo {
+  margin-left: 10%;
+  margin-top: 32px;
+  width: 28%;
+}
+.header__pointsImg {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 32px;
+}
+.header__collectPoints {
+  margin: auto;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #58B7B7;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 1px 15px;
+  border-radius: 5px;
+}
+.header__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 120px;
+}
+.header__buttons__text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #58B7B7;
+  margin-bottom: 10px;
+}
+.header__buttons__text__active {
+  font-size: 18px;
+  font-weight: 600;
+  color: #58B7B7;
+  border-bottom: 5px solid #58B7B7;
 }
 
 .footer {
@@ -362,7 +462,7 @@ body {
 
 .cornerL {
   position: absolute;
-  bottom: 0;
+  bottom: -150px;
   left: 0;
 }
 

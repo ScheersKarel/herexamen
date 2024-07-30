@@ -1,0 +1,49 @@
+.header {
+    background: linear-gradient(to bottom, $primaryInBoxes, white);
+
+    &__logo {
+        margin-left: 10%;
+        margin-top: 32px;
+        width: 28%;
+    }
+
+    &__pointsImg {
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 32px;
+    }
+
+    &__collectPoints {
+        margin: auto;
+        margin-top: 20px;
+        font-weight: bold;
+        color: $secondaryInBoxes;
+        background-color: white;
+        width: fit-content;
+        height: fit-content;
+        padding: 1px 15px;
+        border-radius: 5px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 120px;
+
+
+        &__text {
+            font-size: $h6;
+            font-weight: 600;
+            color: $secondaryInBoxes;
+            margin-bottom: 10px;
+
+            &__active {
+                font-size: $h6;
+                font-weight: 600;
+                color: $secondaryInBoxes;
+                border-bottom: 5px solid $secondaryInBoxes;
+            }
+        }
+    }
+}
