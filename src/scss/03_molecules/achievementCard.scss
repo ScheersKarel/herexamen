@@ -1,0 +1,85 @@
+.achievementCard {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 24px;
+    margin-top: 32px;
+
+    &__image {
+        &__img {
+            width: 200%;
+            margin-left: -30px;
+            margin-top: -10px;
+
+            &__lock {
+                width: 200%;
+                margin-left: -50px;
+                margin-top: -20px;
+            }
+
+        }
+
+        &__text {
+            margin-top: -56px;
+            text-align: center;
+            font-size: $fontsizeNormal;
+            color: $buttonColor;
+            font-weight: 600;
+        }
+    }
+
+    &__content {
+        &__title {
+            font-weight: 600;
+            color: $titleColor;
+        }
+
+        &__description {
+            width: 80%;
+
+            &__number {
+                margin-right: -25%;
+                float: right;
+
+            }
+        }
+
+        &__progressbar {
+            width: 100%;
+            height: 7px;
+            border-radius: 10px;
+            background-color: #DCB0EF;
+        }
+
+        &__progressbarFilled {
+            margin-top: -7px;
+            width: 100%;
+            height: 7px;
+            border-radius: 10px;
+            background-color: $primaryInBoxes;
+        }
+
+        &__progressbar25 {
+            margin-top: -7px;
+            width: 40%;
+            height: 7px;
+            border-radius: 10px;
+            background-color: $primaryInBoxes;
+        }
+
+        &__progressbar310 {
+            margin-top: -7px;
+            width: 30%;
+            height: 7px;
+            border-radius: 10px;
+            background-color: $primaryInBoxes;
+        }
+
+        &__progressbar15 {
+            margin-top: -7px;
+            width: 20%;
+            height: 7px;
+            border-radius: 10px;
+            background-color: $primaryInBoxes;
+        }
+    }
+}

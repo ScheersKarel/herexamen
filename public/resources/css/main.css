@@ -169,6 +169,75 @@ a {
   margin-left: -2px;
 }
 
+.achievementCard {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 24px;
+  margin-top: 32px;
+}
+.achievementCard__image__img {
+  width: 200%;
+  margin-left: -30px;
+  margin-top: -10px;
+}
+.achievementCard__image__img__lock {
+  width: 200%;
+  margin-left: -50px;
+  margin-top: -20px;
+}
+.achievementCard__image__text {
+  margin-top: -56px;
+  text-align: center;
+  font-size: 16px;
+  color: #469292;
+  font-weight: 600;
+}
+.achievementCard__content__title {
+  font-weight: 600;
+  color: #291532;
+}
+.achievementCard__content__description {
+  width: 80%;
+}
+.achievementCard__content__description__number {
+  margin-right: -25%;
+  float: right;
+}
+.achievementCard__content__progressbar {
+  width: 100%;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #DCB0EF;
+}
+.achievementCard__content__progressbarFilled {
+  margin-top: -7px;
+  width: 100%;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #8E00CC;
+}
+.achievementCard__content__progressbar25 {
+  margin-top: -7px;
+  width: 40%;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #8E00CC;
+}
+.achievementCard__content__progressbar310 {
+  margin-top: -7px;
+  width: 30%;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #8E00CC;
+}
+.achievementCard__content__progressbar15 {
+  margin-top: -7px;
+  width: 20%;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #8E00CC;
+}
+
 .inlogForm {
   margin-top: 80px;
 }
@@ -267,7 +336,6 @@ a {
 .header__images {
   display: flex;
   justify-content: space-between;
-  margin-top: 32px;
 }
 .header__level {
   background-color: white;
