@@ -10,7 +10,7 @@
 
 <body>
     <div class="header">
-        <img class="header__logo" src="resources/images/logo.png">
+        <img class="header__logo" src="resources/images/logoWhite.png">
         <br>
         <img class="header__pointsImg" src="resources/images/coin.png" alt="">
         <div class="header__collectPoints">
@@ -25,7 +25,7 @@
 
         <!-- Bier kaart  -->
         <div class="reward__card">
-            <img class="reward__card__image" src="resources/images/mojito.png" alt="">
+            <img class="reward__card__image" src="resources/images/beer.png" alt="">
             <div class="reward__card__content">
                 <p class="reward__card__content__name">Bier 33cl</p>
                 <p class="reward__card__content__points"><span class="reward__card__content__points__bold">100%</span>
@@ -63,7 +63,7 @@
 
         <!-- Frietjes + snack kaart  -->
         <div class="reward__card">
-            <img class="reward__card__image" src="resources/images/mojito.png" alt="">
+            <img class="reward__card__image" src="resources/images/friet.png" alt="">
             <div class="reward__card__content">
                 <p class="reward__card__content__name">Frietjes + snack</p>
                 <p class="reward__card__content__points"><span class="reward__card__content__points__bold">19%</span>

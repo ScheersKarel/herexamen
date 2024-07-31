@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(to bottom, $primaryInBoxes, white);
+    background: linear-gradient(to bottom, #CC56FF, white);
 
     &__logo {
         margin-left: 10%;
@@ -35,14 +35,14 @@
         &__text {
             font-size: $h6;
             font-weight: 600;
-            color: $secondaryInBoxes;
+            color: $buttonColor;
             margin-bottom: 10px;
 
             &__active {
                 font-size: $h6;
                 font-weight: 600;
-                color: $secondaryInBoxes;
-                border-bottom: 5px solid $secondaryInBoxes;
+                color: $buttonColor;
+                border-bottom: 5px solid $buttonColor;
             }
         }
     }
