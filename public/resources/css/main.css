@@ -8,6 +8,10 @@
   margin-top: 64px;
 }
 
+.backArrowSmallMargin {
+  margin-top: 16px;
+}
+
 .surveyProgres {
   margin-top: 20px;
   margin-left: 0px;
@@ -15,6 +19,17 @@
 
 a {
   text-decoration: none;
+}
+
+.changeCrowdButton {
+  background-color: #8E00CC;
+  color: white;
+  text-align: center;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  height: 56px;
+  font-size: 18px;
 }
 
 .points {
@@ -268,6 +283,7 @@ a {
   background-color: #F1FEFE;
   padding: 4px;
   margin-top: 40px;
+  padding-bottom: 16px;
 }
 .wrongInfo__title {
   width: 96%;
