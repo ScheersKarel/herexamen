@@ -1,5 +1,6 @@
 .surveyContent {
     margin-top: 32px;
+    margin-bottom: 200px;
 
     &__number {
         font-size: $h6;
@@ -72,7 +73,7 @@
             appearance: none;
             width: 52px;
             height: 40px;
-            background: $secondaryInBoxes url('../../images/dubbleArrow.png') no-repeat center;
+            background: $secondaryInBoxes url('../../images/dubbleArrow.png') no-repeat center center;
             background-size: contain;
             /* Zorg ervoor dat de afbeelding past */
             cursor: pointer;

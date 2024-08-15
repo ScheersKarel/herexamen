@@ -51,6 +51,55 @@ a {
   padding: 0px 15px;
 }
 
+.toggle-switch {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-color: #e0b3ff;
+  /* Lichtpaars */
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 6px;
+}
+.toggle-switch__checkbox {
+  display: none;
+  /* Verbergt de checkbox */
+}
+.toggle-switch__label {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.toggle-switch__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  margin-top: 4px;
+}
+.toggle-switch__checkbox:checked + .toggle-switch__label .toggle-switch__circle {
+  transform: translateX(30px);
+  /* Verplaatst de cirkel naar rechts wanneer ingeschakeld */
+}
+
+.settings {
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 10px;
+  margin-top: 32px;
+}
+
 .enquete {
   margin-top: 32px;
   display: grid;
@@ -471,8 +520,12 @@ a {
   background-color: white;
   padding-top: 10px;
   padding-bottom: 30px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
 }
-.footer__rush {
+.footer__podiumdrukte {
   color: #8E00CC;
 }
 
@@ -483,6 +536,7 @@ a {
 
 .surveyContent {
   margin-top: 32px;
+  margin-bottom: 200px;
 }
 .surveyContent__number {
   font-size: 18px;
@@ -547,7 +601,7 @@ a {
   appearance: none;
   width: 52px;
   height: 40px;
-  background: #58B7B7 url("../../images/dubbleArrow.png") no-repeat center;
+  background: #58B7B7 url("../../images/dubbleArrow.png") no-repeat center center;
   background-size: contain;
   /* Zorg ervoor dat de afbeelding past */
   cursor: pointer;
@@ -759,6 +813,7 @@ body {
 .container {
   width: 90%;
   margin: auto;
+  margin-bottom: 100px;
 }
 
 .cornerL {

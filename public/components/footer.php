@@ -28,23 +28,23 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         </a>
     <?php endif; ?>
 
-    <?php if ($currentPage == 'rush.php') : ?>
-        <a href="rush.php" class="active">
-            <img class="footer__rush" src="resources/images/DrukteIsActive.png" alt="">
+    <?php if ($currentPage == 'podiumdrukte.php' || $currentPage == 'changeCrowd.php') : ?>
+        <a href="podiumdrukte.php" class="active">
+            <img class="footer__podiumdrukte" src="resources/images/DrukteIsActive.png" alt="">
         </a>
     <?php else : ?>
-        <a href="rush.php" class="active">
-            <img class="footer__rush" src="resources/images/Drukte.png" alt="">
+        <a href="podiumdrukte.php" class="active">
+            <img class="footer__podiumdrukte" src="resources/images/Drukte.png" alt="">
         </a>
     <?php endif; ?>
 
-    <?php if ($currentPage == 'reward.php') : ?>
-        <a href="reward.php" class="active">
-            <img class="footer__reward" src="resources/images/BeloningenIsActive.png" alt="">
+    <?php if ($currentPage == 'rewards.php' || $currentPage == 'badges.php') : ?>
+        <a href="rewards.php" class="active">
+            <img class="footer__rewards" src="resources/images/BeloningenIsActive.png" alt="">
         </a>
     <?php else : ?>
-        <a href="reward.php" class="active">
-            <img class="footer__reward" src="resources/images/Beloningen.png" alt="">
+        <a href="rewards.php" class="active">
+            <img class="footer__rewards" src="resources/images/Beloningen.png" alt="">
         </a>
     <?php endif; ?>
 
