@@ -1,0 +1,174 @@
+.crowd {
+    background-color: white;
+    margin-top: 24px;
+
+    &__amount {
+
+        padding-top: 16px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 96%;
+        margin: auto;
+        margin-bottom: 8px;
+
+        &__1 {
+            width: 16px;
+            height: 122px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__2 {
+            width: 16px;
+            height: 139px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__3 {
+            width: 16px;
+            height: 151px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__4 {
+            width: 16px;
+            height: 195px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__5 {
+            width: 16px;
+            height: 183px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__6 {
+            width: 16px;
+            height: 195px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__7 {
+            width: 16px;
+            height: 166px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__8 {
+            width: 16px;
+            height: 151px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__9 {
+            width: 16px;
+            height: 132px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__10 {
+            width: 16px;
+            height: 94px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__11 {
+            width: 16px;
+            height: 74px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__12 {
+            width: 16px;
+            height: 57px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__13 {
+            width: 16px;
+            height: 80px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__14 {
+            width: 16px;
+            height: 100px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__15 {
+            width: 16px;
+            height: 115px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+
+        &__16 {
+            width: 16px;
+            height: 100px;
+            background: linear-gradient(to bottom, #F30075, #D77AFF);
+            border-radius: 2px;
+
+        }
+    }
+
+    &__time {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+
+        &__progressbarFull {
+            width: 90%;
+            height: 5px;
+            border-radius: 10px;
+            background-color: $primaryInBoxes;
+            margin: auto;
+        }
+
+        &__progressbar {
+            width: 90%;
+            height: 5px;
+            border-radius: 10px;
+            background-color: #DCB0EF;
+            margin: auto;
+        }
+
+        &__progressbar80 {
+            width: 60%;
+            height: 5px;
+            border-radius: 10px;
+            background-color: $primaryInBoxes;
+            margin-left: 5%;
+            margin-top: -5px;
+        }
+    }
+}

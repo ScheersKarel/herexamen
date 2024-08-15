@@ -1,0 +1,26 @@
+.wrongInfo {
+    background-color: #F1FEFE;
+    padding: 4px;
+    margin-top: 40px;
+
+    &__title {
+        width: 96%;
+        margin: auto;
+        margin-top: 8px;
+    }
+
+    &__content {
+        width: 96%;
+        margin: auto;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+
+    &__link {
+        color: $primaryInBoxes;
+        text-decoration: underline;
+        margin-left: 2%;
+
+    }
+
+}
