@@ -585,7 +585,7 @@ h6 {
 .surveyContent__number span {
   font-weight: bold;
   font-size: 24px;
-  color: black;
+  color: #fefdfe;
 }
 .surveyContent__question {
   font-size: 28px;
@@ -627,7 +627,7 @@ h6 {
   grid-column: span 2;
   width: 100%;
   height: 16px;
-  background: #f0f0f0;
+  background: #241a28;
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;

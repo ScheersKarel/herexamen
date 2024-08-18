@@ -16,14 +16,14 @@
 
         <div class="surveyContent">
             <p class="surveyContent__number">Vraag <span>2</span>/3</p>
-            <h1 class="surveyContent__question">Hoe druk is het op dit moment?</h1>
+            <h3 class="surveyContent__question">Hoe druk is het op dit moment?</h3>
             <div class="surveyContent__slider">
                 <div class="surveyContent__slider__left">helemaal niet druk</div>
                 <div class="surveyContent__slider__right">ontzettend druk</div>
                 <input type="range" min="0" max="10" value="5" class="surveyContent__slider__slider">
             </div>
 
-            <h2 class="surveyContent__question">Ervaar je deze drukte als iets positief of iets negatiefs?</h2>
+            <h3 class="surveyContent__question">Ervaar je deze drukte als iets positief of iets negatiefs?</h3>
             <div class="surveyContent__slider">
                 <div class="surveyContent__slider__left">Heel negatief</div>
                 <div class="surveyContent__slider__right">Heel positief</div>

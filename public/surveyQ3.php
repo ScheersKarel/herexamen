@@ -16,7 +16,7 @@
 
         <div class="surveyContent">
             <p class="surveyContent__number">Vraag <span>3</span>/3</p>
-            <h1 class="surveyContent__question">Hoe voel je je op dit moment?</h1>
+            <h3 class="surveyContent__question">Hoe voel je je op dit moment?</h3>
             <div class="surveyContent__slider">
                 <div class="surveyContent__slider__left"><img src="resources/images/sleepy.png" alt=""></div>
                 <div class="surveyContent__slider__right"><img src="resources/images/klaarwakker.png" alt=""></div>

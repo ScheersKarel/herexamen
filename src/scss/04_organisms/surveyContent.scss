@@ -10,7 +10,7 @@
     &__number span {
         font-weight: bold;
         font-size: $h4;
-        color: black;
+        color: $titleColor;
     }
 
     &__question {
@@ -38,7 +38,6 @@
             align-items: flex-start;
             width: 99px;
             color: $textColor;
-
         }
 
         &__right {
@@ -58,7 +57,7 @@
             grid-column: span 2;
             width: 100%;
             height: 16px;
-            background: #f0f0f0;
+            background: $secondaryBackgroundColor;
             border: 1px solid #ccc;
             border-radius: 5px;
             outline: none;
@@ -73,8 +72,9 @@
             appearance: none;
             width: 52px;
             height: 40px;
-            
-            background: $secondaryInBoxes url('../images/dubbleArrow.png') no-repeat center center;
+
+            background: $secondaryInBoxes url("../images/dubbleArrow.png")
+                no-repeat center center;
             background-size: contain;
             /* Zorg ervoor dat de afbeelding past */
             cursor: pointer;
