@@ -34,32 +34,32 @@ a {
 
 h1 {
   font-size: 44px;
-  color: #fefdfe;
+  color: #291532;
 }
 
 h2 {
   font-size: 34px;
-  color: #fefdfe;
+  color: #291532;
 }
 
 h3 {
   font-size: 28px;
-  color: #fefdfe;
+  color: #291532;
 }
 
 h4 {
   font-size: 24px;
-  color: #fefdfe;
+  color: #291532;
 }
 
 h5 {
   font-size: 20px;
-  color: #fefdfe;
+  color: #291532;
 }
 
 h6 {
   font-size: 18px;
-  color: #fefdfe;
+  color: #291532;
 }
 
 .points {
@@ -75,7 +75,7 @@ h6 {
   font-size: 16px;
   font-weight: bold;
   color: #58b7b7;
-  background-color: #241a28;
+  background-color: white;
   width: fit-content;
   height: fit-content;
   padding: 0px 15px;
@@ -122,13 +122,13 @@ h6 {
 }
 
 .settings {
-  background-color: #241a28;
+  background-color: white;
   border: 1px solid lightgray;
   display: flex;
   justify-content: space-between;
   padding: 1px 10px;
   margin-top: 32px;
-  color: #fefdfe;
+  color: #545255;
 }
 
 .enquete {
@@ -136,14 +136,14 @@ h6 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding-left: 20px;
-  background-color: #241a28;
+  background-color: white;
   border-radius: 5px;
 }
 .enquete__time {
   font-size: 28px;
   margin-top: -14px;
   margin-bottom: -10px;
-  color: #fefdfe;
+  color: #545255;
 }
 .enquete__time__seconds {
   color: #8e00cc;
@@ -162,14 +162,14 @@ h6 {
   cursor: pointer;
 }
 .enquete__normalText {
-  color: #fefdfe;
+  color: #545255;
 }
 
 .reward {
   margin-top: 48px;
 }
 .reward__card {
-  background-color: #241a28;
+  background-color: white;
   border-radius: 5px;
   padding: 10px;
   display: grid;
@@ -185,13 +185,13 @@ h6 {
   justify-content: space-between;
 }
 .reward__card__content__name {
-  color: #fefdfe;
+  color: #545255;
 }
 .reward__card__content__points {
-  color: #fefdfe;
+  color: #545255;
 }
 .reward__card__content__points__bold {
-  color: #fefdfe;
+  color: #545255;
   font-weight: bold;
 }
 .reward__card__progressbar {
@@ -231,7 +231,7 @@ h6 {
   background-color: #8e00cc;
 }
 .reward__extra {
-  background-color: #241a28;
+  background-color: white;
   border-radius: 5px;
   padding-left: 10%;
   margin-top: -20px;
@@ -240,7 +240,7 @@ h6 {
 .reward__extra__container {
   display: flex;
   justify-content: space-between;
-  color: #fefdfe;
+  color: #545255;
 }
 .reward__extra__button {
   background-color: #908c92;
@@ -297,11 +297,11 @@ h6 {
 }
 .achievementCard__content__title {
   font-weight: 600;
-  color: #fefdfe;
+  color: #291532;
 }
 .achievementCard__content__description {
   width: 80%;
-  color: #fefdfe;
+  color: #545255;
 }
 .achievementCard__content__description__number {
   margin-right: -25%;
@@ -352,7 +352,7 @@ h6 {
 .dropdown__button {
   width: 100%;
   color: white;
-  background-color: #241a28;
+  background-color: white;
   color: #8e00cc;
   padding: 10px 20px;
   text-align: left;
@@ -384,7 +384,7 @@ h6 {
   margin: auto;
   margin-top: 8px;
   margin-bottom: 16px;
-  color: #fefdfe;
+  color: #545255;
 }
 .wrongInfo__link {
   color: #8e00cc;
@@ -396,12 +396,12 @@ h6 {
   margin-top: 80px;
 }
 .inlogForm__title {
-  font-weight: 600;
+  font-weight: bold;
 }
 .inlogForm__subTitle {
   margin-top: -20px;
   margin-left: 2px;
-  color: #fefdfe;
+  color: #545255;
 }
 .inlogForm__username {
   width: 95%;
@@ -411,8 +411,8 @@ h6 {
   border-color: rgba(41, 21, 50, 0.15);
   border-radius: 5px;
   padding-left: 5%;
-  color: #fefdfe;
-  background-color: #241a28;
+  color: #545255;
+  background-color: white;
 }
 .inlogForm__password {
   width: 95%;
@@ -422,22 +422,22 @@ h6 {
   border-color: rgba(41, 21, 50, 0.15);
   border-radius: 5px;
   padding-left: 5%;
-  color: #fefdfe;
-  background-color: #241a28;
+  color: #545255;
+  background-color: white;
 }
 .inlogForm__checkbox {
   margin-top: 16px;
   border-width: 0.5px;
-  background-color: #241a28;
+  background-color: white;
 }
 .inlogForm__remember {
   font-size: 14px;
-  color: #fefdfe;
+  color: #545255;
 }
 .inlogForm__forgotPassword {
   position: absolute;
   font-size: 14px;
-  color: #fefdfe;
+  color: #545255;
   right: 0;
   margin-top: 16px;
   margin-right: 6%;
@@ -460,11 +460,11 @@ h6 {
 }
 .inlogForm__otherlogin {
   margin-top: -18px;
-  color: #fefdfe;
+  color: #545255;
   font-size: 14px;
   width: fit-content;
   padding: 0px 10px;
-  background-color: #2b2a2c;
+  background-color: #f3f1f3;
   margin-left: 36%;
 }
 .inlogForm__socials {
@@ -475,14 +475,14 @@ h6 {
 .inlogForm__withoutPassword {
   position: absolute;
   margin-top: 32px;
-  color: #fefdfe;
+  color: #545255;
   font-size: 14px;
-  border-bottom: 1px solid #fefdfe;
+  border-bottom: 1px solid #545255;
   margin-bottom: 48px;
 }
 
 .header {
-  background: linear-gradient(to bottom, #cc56ff, #241a28);
+  background: linear-gradient(to bottom, #cc56ff, white);
 }
 .header__logo {
   margin-left: 10%;
@@ -494,7 +494,7 @@ h6 {
   justify-content: space-between;
 }
 .header__level {
-  background-color: #241a28;
+  background-color: white;
   color: #58b7b7;
   font-weight: bold;
   width: fit-content;
@@ -514,7 +514,7 @@ h6 {
   margin-top: -16px;
 }
 .header__badges__subtitle {
-  color: #fefdfe;
+  color: #291532;
 }
 .header__badges p {
   margin-top: -32px;
@@ -533,7 +533,7 @@ h6 {
   margin-top: 20px;
   font-weight: bold;
   color: #58b7b7;
-  background-color: #241a28;
+  background-color: white;
   width: fit-content;
   height: fit-content;
   padding: 1px 15px;
@@ -559,7 +559,7 @@ h6 {
 }
 
 .footer {
-  background-color: #241a28;
+  background-color: white;
   width: 100%;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -586,12 +586,12 @@ h6 {
 }
 .surveyContent__number {
   font-size: 18px;
-  color: #fefdfe;
+  color: #545255;
 }
 .surveyContent__number span {
   font-weight: bold;
   font-size: 24px;
-  color: #fefdfe;
+  color: #291532;
 }
 .surveyContent__question {
   font-size: 28px;
@@ -615,14 +615,14 @@ h6 {
   justify-content: left;
   align-items: flex-start;
   width: 99px;
-  color: #fefdfe;
+  color: #545255;
 }
 .surveyContent__slider__right {
   display: flex;
   justify-content: right;
   align-items: flex-end;
   width: 99px;
-  color: #fefdfe;
+  color: #545255;
   text-align: right;
   margin-left: 80px;
   margin-bottom: 16px;
@@ -633,7 +633,7 @@ h6 {
   grid-column: span 2;
   width: 100%;
   height: 16px;
-  background: #241a28;
+  background: white;
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
@@ -667,7 +667,7 @@ h6 {
 }
 
 .crowd {
-  background-color: #241a28;
+  background-color: white;
   margin-top: 24px;
 }
 .crowd__amount {
@@ -779,7 +779,7 @@ h6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
-  color: #fefdfe;
+  color: #545255;
 }
 .crowd__time__progressbarFull {
   width: 90%;
@@ -819,7 +819,7 @@ h6 {
   display: flex;
   justify-content: center;
   text-align: center;
-  color: #fefdfe;
+  color: #545255;
 }
 .collect__points {
   margin: auto;
@@ -830,7 +830,7 @@ h6 {
   gap: 10px;
   font-weight: bold;
   color: #58b7b7;
-  background-color: #241a28;
+  background-color: white;
   width: fit-content;
   height: fit-content;
   padding: 0px 15px;
@@ -853,7 +853,7 @@ h6 {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #2b2a2c;
+  background-color: #f3f1f3;
   max-width: 428px;
   margin: auto;
 }
