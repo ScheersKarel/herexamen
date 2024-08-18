@@ -12,9 +12,11 @@
     <div class="header">
         <img class="header__logo" src="resources/images/logoWhite.png">
         <img class="header__pointsImg" src="resources/images/coin.png" alt="">
+
         <div class="header__collectPoints">
             <p>375 Punten</p>
         </div>
+        
         <div class="header__buttons">
             <a class="header__buttons__text__active" href="./rewards.php">Beloningen</a>
             <a class="header__buttons__text" href="./badges.php">Badges</a>

@@ -15,12 +15,15 @@
             <div class="header__level">Level 2</div>
         </div>
 
+        <!-- header images -->
         <div class="header__badges">
             <img src="./resources/images/badge1.png" alt="">
             <img class="header__badges__mainBadge" src="./resources/images/badge2.png" alt="">
             <img src="./resources/images/badgeLock.png" alt="">
             <p class="header__badges__subtitle">Enquête ontdekker</p>
         </div>
+
+        <!-- header buttons -->
         <div class="header__buttons">
             <a class="header__buttons__text" href="./rewards.php">Beloningen</a>
             <a class="header__buttons__text__active" href="">Badges</a>
@@ -28,6 +31,7 @@
     </div>
     <div class="container">
 
+        <!-- achievementCard 1 -->
         <div class="achievementCard">
             <div class="achievementCard__image">
                 <img class="achievementCard__image__img" src="./resources/images/badge1.png" alt="">
@@ -41,6 +45,7 @@
             </div>
         </div>
 
+        <!-- achievementCard 2 -->
         <div class="achievementCard">
             <div class="achievementCard__image">
                 <img class="achievementCard__image__img" src="./resources/images/badge2small.png" alt="">
@@ -54,6 +59,7 @@
             </div>
         </div>
 
+        <!-- achievementCard 3 -->
         <div class="achievementCard">
             <div class="achievementCard__image">
                 <img class="achievementCard__image__img__lock" src="./resources/images/badgeLock.png" alt="">
@@ -67,6 +73,7 @@
             </div>
         </div>
 
+        <!-- achievementCard 4 -->
         <div class="achievementCard">
             <div class="achievementCard__image">
                 <img class="achievementCard__image__img__lock" src="./resources/images/badgeLock.png" alt="">
@@ -80,6 +87,7 @@
             </div>
         </div>
 
+        <!-- achievementCard 5 -->
         <div class="achievementCard">
             <div class="achievementCard__image">
                 <img class="achievementCard__image__img__lock" src="./resources/images/badgeLock.png" alt="">

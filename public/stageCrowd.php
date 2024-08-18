@@ -19,6 +19,7 @@
             <img class="dropdown__arrow" src="./resources/images/downArrow.png" alt="">
         </div>
 
+        <!-- bar graff -->
         <div class="crowd">
             <div class="crowd__amount">
                 <div class="crowd__amount__1"></div>
@@ -39,7 +40,7 @@
                 <div class="crowd__amount__16"></div>
 
             </div>
-
+            <!-- graff time stamps + progressbar -->
             <div class="crowd__time">
                 <div class="crowd__time__18u">
                     <div class="crowd__time__progressbarFull"></div>
@@ -61,6 +62,7 @@
             </div>
         </div>
 
+        <!-- wrong info card -->
         <div class="wrongInfo">
             <h6 class="wrongInfo__title">Klopt deze informatie niet?</h6>
             <p class="wrongInfo__content">Je kan de drukte aan dit podium handmatig ingeven zodat onze grafiek weer klopt.</p>

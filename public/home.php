@@ -10,7 +10,10 @@
 
 <body>
     <div class="container">
+
         <img class="logo" src="resources/images/logo.png">
+
+        <!-- point amount right top -->
         <div class="points">
             <img src="resources/images/points.png" alt="">
             <p>375 punten</p>
@@ -18,6 +21,7 @@
 
         <h2>Actieve enquêtes</h2>
 
+        <!-- first enquete card -->
         <div class="enquete">
             <div class="enquete__left">
                 <p class="enquete__normalText">Nog</p>
@@ -27,6 +31,7 @@
             <a href="surveyQ1.php"><button class="enquete__button">Start</button></a>
         </div>
 
+        <!-- second enquete card -->
         <div class="enquete">
             <div class="enquete__left">
                 <p class="enquete__normalText">Nog</p>
@@ -39,10 +44,11 @@
 
         <h4 class="reward">Beloningen</h4>
 
+        <!-- first reward card -->
         <div class="reward__card">
             <img class="reward__card__image" src="resources/images/mojito.png" alt="">
             <div class="reward__card__content">
-                <p class="reward__card__content__name">mojito</p>
+                <p class="reward__card__content__name">Mojito</p>
                 <p class="reward__card__content__points">nog <span class="reward__card__content__points__bold">25</span>
                     punten</p>
             </div>
@@ -50,6 +56,7 @@
             <div class="reward__card__progressbarFilledMojito"></div>
         </div>
 
+        <!-- second reward card -->
         <div class="reward__card">
             <img class="reward__card__image" src="resources/images/cheeseburger.png" alt="">
             <div class="reward__card__content">
