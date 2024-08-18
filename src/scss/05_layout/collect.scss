@@ -16,6 +16,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
+        color: $textColor;
     }
 
     &__points {
@@ -27,7 +28,7 @@
         gap: 10px;
         font-weight: bold;
         color: $secondaryInBoxes;
-        background-color: white;
+        background-color: $secondaryBackgroundColor;
         width: fit-content;
         height: fit-content;
         padding: 0px 15px;
