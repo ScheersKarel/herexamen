@@ -4,7 +4,7 @@
 
     &__number {
         font-size: $h6;
-        color: $darkgrayTextColor;
+        color: $textColor;
     }
 
     &__number span {
@@ -37,7 +37,7 @@
             justify-content: left;
             align-items: flex-start;
             width: 99px;
-            color: $darkgrayTextColor;
+            color: $textColor;
 
         }
 
@@ -46,7 +46,7 @@
             justify-content: right;
             align-items: flex-end;
             width: 99px;
-            color: $darkgrayTextColor;
+            color: $textColor;
             text-align: right;
             margin-left: 80px;
             margin-bottom: 16px;
@@ -73,7 +73,8 @@
             appearance: none;
             width: 52px;
             height: 40px;
-            background: $secondaryInBoxes url('../../images/dubbleArrow.png') no-repeat center center;
+            
+            background: $secondaryInBoxes url('../images/dubbleArrow.png') no-repeat center center;
             background-size: contain;
             /* Zorg ervoor dat de afbeelding past */
             cursor: pointer;

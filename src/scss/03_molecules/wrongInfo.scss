@@ -1,5 +1,5 @@
 .wrongInfo {
-    background-color: #F1FEFE;
+    background-color: $secondaryBackgroundColor;
     padding: 4px;
     margin-top: 40px;
     padding-bottom: 16px;
@@ -15,14 +15,12 @@
         margin: auto;
         margin-top: 8px;
         margin-bottom: 16px;
+        color: $textColor;
     }
 
     &__link {
         color: $primaryInBoxes;
         text-decoration: underline;
         margin-left: 2%;
-
-
     }
-
 }

@@ -16,7 +16,7 @@
             <p>375 punten</p>
         </div>
 
-        <h1>Actieve enquêtes</h1>
+        <h2>Actieve enquêtes</h2>
 
         <div class="enquete">
             <div class="enquete__left">
@@ -37,7 +37,7 @@
         </div>
 
 
-        <h2 class="reward">Beloningen</h2>
+        <h4 class="reward">Beloningen</h4>
 
         <div class="reward__card">
             <img class="reward__card__image" src="resources/images/mojito.png" alt="">

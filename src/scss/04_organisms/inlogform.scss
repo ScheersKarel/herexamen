@@ -20,7 +20,7 @@
         border-color: rgba(41, 21, 50, 0.15);
         border-radius: 5px;
         padding-left: 5%;
-        color: $darkgrayTextColor;
+        color: $textColor;
     }
 
     &__password {
@@ -31,7 +31,7 @@
         border-color: rgba(41, 21, 50, 0.15);
         border-radius: 5px;
         padding-left: 5%;
-        color: $darkgrayTextColor;
+        color: $textColor;
     }
 
     &__checkbox {
@@ -41,13 +41,13 @@
 
     &__remember {
         font-size: $fontsizeSmall;
-        color: $darkgrayTextColor;
+        color: $textColor;
     }
 
     &__forgotPassword {
         position: absolute;
         font-size: $fontsizeSmall;
-        color: $darkgrayTextColor;
+        color: $textColor;
         right: 0;
         margin-top: 16px;
         margin-right: 6%;
@@ -73,7 +73,7 @@
 
     &__otherlogin {
         margin-top: -18px;
-        color: $darkgrayTextColor;
+        color: $textColor;
         font-size: $fontsizeSmall;
         width: fit-content;
         padding: 0px 10px;
@@ -90,9 +90,9 @@
     &__withoutPassword {
         position: absolute;
         margin-top: 32px;
-        color: $darkgrayTextColor;
+        color: $textColor;
         font-size: $fontsizeSmall;
-        border-bottom: 1px solid $darkgrayTextColor;
+        border-bottom: 1px solid $textColor;
         margin-bottom: 48px;
     }
 }

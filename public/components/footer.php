@@ -1,18 +1,3 @@
-<!--/*<footer class="footer">
-    <a href="#">
-        <img class="footer__home" src="resources/images/Home.png" alt="">
-    </a>
-    <a href="#">
-        <img class="footer__rush" src="resources/images/Drukte.png" alt="">
-    </a>
-    <a href="#">
-        <img class="footer__reward" src="resources/images/Beloningen.png" alt="">
-    </a>
-    <a href="#">
-        <img class="footer__settings" src="resources/images/Settings.png" alt="">
-    </a>
-</footer>
-*/ -->
 <?php
 $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
@@ -28,13 +13,13 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         </a>
     <?php endif; ?>
 
-    <?php if ($currentPage == 'podiumdrukte.php' || $currentPage == 'changeCrowd.php') : ?>
-        <a href="podiumdrukte.php" class="active">
-            <img class="footer__podiumdrukte" src="resources/images/DrukteIsActive.png" alt="">
+    <?php if ($currentPage == 'stageCrowd.php' || $currentPage == 'changeCrowd.php') : ?>
+        <a href="stageCrowd.php" class="active">
+            <img class="footer__stageCrowd" src="resources/images/DrukteIsActive.png" alt="">
         </a>
     <?php else : ?>
-        <a href="podiumdrukte.php" class="active">
-            <img class="footer__podiumdrukte" src="resources/images/Drukte.png" alt="">
+        <a href="stageCrowd.php" class="active">
+            <img class="footer__stageCrowd" src="resources/images/Drukte.png" alt="">
         </a>
     <?php endif; ?>
 

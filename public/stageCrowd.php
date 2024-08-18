@@ -12,7 +12,7 @@
     <div class="container">
         <img class="logo" src="resources/images/logo.png">
 
-        <h2>Live drukte aan podia</h2>
+        <h4>Live drukte aan podia</h4>
 
         <div class="dropdown">
             <button class="dropdown__button">Mainstage</button>
@@ -62,7 +62,7 @@
         </div>
 
         <div class="wrongInfo">
-            <h3 class="wrongInfo__title">Klopt deze informatie niet?</h3>
+            <h6 class="wrongInfo__title">Klopt deze informatie niet?</h6>
             <p class="wrongInfo__content">Je kan de drukte aan dit podium handmatig ingeven zodat onze grafiek weer klopt.</p>
             <a class="wrongInfo__link" href="./changeCrowd.php">Ga erheen >></a>
         </div>

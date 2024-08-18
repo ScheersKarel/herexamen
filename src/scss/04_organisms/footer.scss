@@ -1,9 +1,9 @@
 .footer {
+    background-color: $secondaryBackgroundColor;
     width: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     margin-top: 48px;
-    background-color: white;
     padding-top: 10px;
     padding-bottom: 30px;
     position: fixed;
