@@ -3,13 +3,12 @@
 
     &__title {
         font-weight: 600;
-        color: $titleColor;
     }
 
     &__subTitle {
         margin-top: -20px;
         margin-left: 2px;
-        color: #545255;
+        color: $textColor;
     }
 
     &__username {
@@ -21,6 +20,7 @@
         border-radius: 5px;
         padding-left: 5%;
         color: $textColor;
+        background-color: $secondaryBackgroundColor;
     }
 
     &__password {
@@ -32,11 +32,13 @@
         border-radius: 5px;
         padding-left: 5%;
         color: $textColor;
+        background-color: $secondaryBackgroundColor;
     }
 
     &__checkbox {
         margin-top: 16px;
         border-width: 0.5px;
+        background-color: $secondaryBackgroundColor;
     }
 
     &__remember {

@@ -22,7 +22,7 @@ a {
 }
 
 .changeCrowdButton {
-  background-color: #8E00CC;
+  background-color: #8e00cc;
   color: white;
   text-align: center;
   width: 100%;
@@ -34,32 +34,32 @@ a {
 
 h1 {
   font-size: 44px;
-  color: white;
+  color: #fefdfe;
 }
 
 h2 {
   font-size: 34px;
-  color: white;
+  color: #fefdfe;
 }
 
 h3 {
   font-size: 28px;
-  color: white;
+  color: #fefdfe;
 }
 
 h4 {
   font-size: 24px;
-  color: white;
+  color: #fefdfe;
 }
 
 h5 {
   font-size: 20px;
-  color: white;
+  color: #fefdfe;
 }
 
 h6 {
   font-size: 18px;
-  color: white;
+  color: #fefdfe;
 }
 
 .points {
@@ -74,8 +74,8 @@ h6 {
   height: 100%;
   font-size: 16px;
   font-weight: bold;
-  color: #58B7B7;
-  background-color: black;
+  color: #58b7b7;
+  background-color: #241a28;
   width: fit-content;
   height: fit-content;
   padding: 0px 15px;
@@ -135,22 +135,22 @@ h6 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding-left: 20px;
-  background-color: black;
+  background-color: #241a28;
   border-radius: 5px;
 }
 .enquete__time {
   font-size: 28px;
   margin-top: -14px;
   margin-bottom: -10px;
-  color: white;
+  color: #fefdfe;
 }
 .enquete__time__seconds {
-  color: #8E00CC;
+  color: #8e00cc;
 }
 .enquete__button {
   width: 70px;
   height: 70px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
   border: none;
   color: white;
   font-size: 18px;
@@ -161,14 +161,14 @@ h6 {
   cursor: pointer;
 }
 .enquete__normalText {
-  color: white;
+  color: #fefdfe;
 }
 
 .reward {
   margin-top: 48px;
 }
 .reward__card {
-  background-color: black;
+  background-color: #241a28;
   border-radius: 5px;
   padding: 10px;
   display: grid;
@@ -184,13 +184,13 @@ h6 {
   justify-content: space-between;
 }
 .reward__card__content__name {
-  color: white;
+  color: #fefdfe;
 }
 .reward__card__content__points {
-  color: white;
+  color: #fefdfe;
 }
 .reward__card__content__points__bold {
-  color: white;
+  color: #fefdfe;
   font-weight: bold;
 }
 .reward__card__progressbar {
@@ -206,28 +206,28 @@ h6 {
   width: 90%;
   height: 7px;
   border-radius: 10px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
 }
 .reward__card__progressbarFilledBier {
   margin-top: -10px;
   width: 100%;
   height: 7px;
   border-radius: 10px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
 }
 .reward__card__progressbarFilledCheeseburger {
   margin-top: -10px;
   width: 25%;
   height: 7px;
   border-radius: 10px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
 }
 .reward__card__progressbarFilledFriet {
   margin-top: -10px;
   width: 19%;
   height: 7px;
   border-radius: 10px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
 }
 .reward__extra {
   background-color: white;
@@ -241,7 +241,7 @@ h6 {
   justify-content: space-between;
 }
 .reward__extra__button {
-  background-color: white;
+  background-color: #fefdfe;
   border: none;
   border-radius: 2px;
   color: white;
@@ -253,7 +253,7 @@ h6 {
   margin-right: 10px;
 }
 .reward__extra__button__active {
-  background-color: #8E00CC;
+  background-color: #8e00cc;
   border: none;
   border-radius: 2px;
   color: white;
@@ -295,7 +295,7 @@ h6 {
 }
 .achievementCard__content__title {
   font-weight: 600;
-  color: white;
+  color: #fefdfe;
 }
 .achievementCard__content__description {
   width: 80%;
@@ -315,28 +315,28 @@ h6 {
   width: 100%;
   height: 7px;
   border-radius: 10px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
 }
 .achievementCard__content__progressbar25 {
   margin-top: -7px;
   width: 40%;
   height: 7px;
   border-radius: 10px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
 }
 .achievementCard__content__progressbar310 {
   margin-top: -7px;
   width: 30%;
   height: 7px;
   border-radius: 10px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
 }
 .achievementCard__content__progressbar15 {
   margin-top: -7px;
   width: 20%;
   height: 7px;
   border-radius: 10px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
 }
 
 .dropdown {
@@ -349,8 +349,8 @@ h6 {
 .dropdown__button {
   width: 100%;
   color: white;
-  background-color: black;
-  color: #8E00CC;
+  background-color: #241a28;
+  color: #8e00cc;
   padding: 10px 20px;
   text-align: left;
   font-weight: 600;
@@ -366,7 +366,7 @@ h6 {
 }
 
 .wrongInfo {
-  background-color: black;
+  background-color: #f1fefe;
   padding: 4px;
   margin-top: 40px;
   padding-bottom: 16px;
@@ -381,10 +381,10 @@ h6 {
   margin: auto;
   margin-top: 8px;
   margin-bottom: 16px;
-  color: white;
+  color: #fefdfe;
 }
 .wrongInfo__link {
-  color: #8E00CC;
+  color: #8e00cc;
   text-decoration: underline;
   margin-left: 2%;
 }
@@ -394,12 +394,11 @@ h6 {
 }
 .inlogForm__title {
   font-weight: 600;
-  color: white;
 }
 .inlogForm__subTitle {
   margin-top: -20px;
   margin-left: 2px;
-  color: #545255;
+  color: #fefdfe;
 }
 .inlogForm__username {
   width: 95%;
@@ -409,7 +408,8 @@ h6 {
   border-color: rgba(41, 21, 50, 0.15);
   border-radius: 5px;
   padding-left: 5%;
-  color: white;
+  color: #fefdfe;
+  background-color: #241a28;
 }
 .inlogForm__password {
   width: 95%;
@@ -419,20 +419,22 @@ h6 {
   border-color: rgba(41, 21, 50, 0.15);
   border-radius: 5px;
   padding-left: 5%;
-  color: white;
+  color: #fefdfe;
+  background-color: #241a28;
 }
 .inlogForm__checkbox {
   margin-top: 16px;
   border-width: 0.5px;
+  background-color: #241a28;
 }
 .inlogForm__remember {
   font-size: 14px;
-  color: white;
+  color: #fefdfe;
 }
 .inlogForm__forgotPassword {
   position: absolute;
   font-size: 14px;
-  color: white;
+  color: #fefdfe;
   right: 0;
   margin-top: 16px;
   margin-right: 6%;
@@ -441,7 +443,7 @@ h6 {
   width: 100%;
   height: 48px;
   margin-top: 40px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
   border: none;
   border-radius: 5px;
   color: white;
@@ -455,11 +457,11 @@ h6 {
 }
 .inlogForm__otherlogin {
   margin-top: -18px;
-  color: white;
+  color: #fefdfe;
   font-size: 14px;
   width: fit-content;
   padding: 0px 10px;
-  background-color: #2B2A2C;
+  background-color: #2b2a2c;
   margin-left: 36%;
 }
 .inlogForm__socials {
@@ -470,9 +472,9 @@ h6 {
 .inlogForm__withoutPassword {
   position: absolute;
   margin-top: 32px;
-  color: white;
+  color: #fefdfe;
   font-size: 14px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fefdfe;
   margin-bottom: 48px;
 }
 
@@ -490,7 +492,7 @@ h6 {
 }
 .header__level {
   background-color: white;
-  color: #58B7B7;
+  color: #58b7b7;
   font-weight: bold;
   width: fit-content;
   height: fit-content;
@@ -524,7 +526,7 @@ h6 {
   margin: auto;
   margin-top: 20px;
   font-weight: bold;
-  color: #58B7B7;
+  color: #58b7b7;
   background-color: white;
   width: fit-content;
   height: fit-content;
@@ -551,7 +553,7 @@ h6 {
 }
 
 .footer {
-  background-color: black;
+  background-color: #241a28;
   width: 100%;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -564,7 +566,7 @@ h6 {
   z-index: 1000;
 }
 .footer__podiumdrukte {
-  color: #8E00CC;
+  color: #8e00cc;
 }
 
 .footer a {
@@ -578,7 +580,7 @@ h6 {
 }
 .surveyContent__number {
   font-size: 18px;
-  color: white;
+  color: #fefdfe;
 }
 .surveyContent__number span {
   font-weight: bold;
@@ -607,14 +609,14 @@ h6 {
   justify-content: left;
   align-items: flex-start;
   width: 99px;
-  color: white;
+  color: #fefdfe;
 }
 .surveyContent__slider__right {
   display: flex;
   justify-content: right;
   align-items: flex-end;
   width: 99px;
-  color: white;
+  color: #fefdfe;
   text-align: right;
   margin-left: 80px;
   margin-bottom: 16px;
@@ -639,14 +641,14 @@ h6 {
   appearance: none;
   width: 52px;
   height: 40px;
-  background: #58B7B7 url("../images/dubbleArrow.png") no-repeat center center;
+  background: #58b7b7 url("../images/dubbleArrow.png") no-repeat center center;
   background-size: contain;
   /* Zorg ervoor dat de afbeelding past */
   cursor: pointer;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 .surveyContent__button {
-  background-color: #8E00CC;
+  background-color: #8e00cc;
   border: none;
   color: white;
   font-size: 18px;
@@ -659,7 +661,7 @@ h6 {
 }
 
 .crowd {
-  background-color: black;
+  background-color: #241a28;
   margin-top: 24px;
 }
 .crowd__amount {
@@ -771,13 +773,13 @@ h6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
-  color: white;
+  color: #fefdfe;
 }
 .crowd__time__progressbarFull {
   width: 90%;
   height: 5px;
   border-radius: 10px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
   margin: auto;
 }
 .crowd__time__progressbar {
@@ -791,7 +793,7 @@ h6 {
   width: 60%;
   height: 5px;
   border-radius: 10px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
   margin-left: 5%;
   margin-top: -5px;
 }
@@ -820,7 +822,7 @@ h6 {
   align-items: center;
   gap: 10px;
   font-weight: bold;
-  color: #58B7B7;
+  color: #58b7b7;
   background-color: white;
   width: fit-content;
   height: fit-content;
@@ -834,7 +836,7 @@ h6 {
   gap: 10px;
   width: 100%;
   height: 50px;
-  background-color: #8E00CC;
+  background-color: #8e00cc;
   color: white;
   font-size: 18px;
   font-weight: bold;
@@ -844,7 +846,7 @@ h6 {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #2B2A2C;
+  background-color: #2b2a2c;
   max-width: 428px;
   margin: auto;
 }
@@ -857,7 +859,7 @@ body {
 
 .cornerL {
   position: absolute;
-  bottom: -150px;
+  top: 750px;
   left: 0;
 }
 
