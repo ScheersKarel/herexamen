@@ -122,12 +122,13 @@ h6 {
 }
 
 .settings {
-  background-color: white;
+  background-color: #241a28;
   border: 1px solid lightgray;
   display: flex;
   justify-content: space-between;
   padding: 1px 10px;
   margin-top: 32px;
+  color: #fefdfe;
 }
 
 .enquete {
