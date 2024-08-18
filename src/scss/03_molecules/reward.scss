@@ -73,7 +73,7 @@
     }
 
     &__extra {
-        background-color: white;
+        background-color: $secondaryBackgroundColor;
         border-radius: 5px;
         padding-left: 10%;
         margin-top: -20px;
@@ -82,10 +82,11 @@
         &__container {
             display: flex;
             justify-content: space-between;
+            color: $textColor;
         }
 
         &__button {
-            background-color: $textColor;
+            background-color: #908c92;
             border: none;
             border-radius: 2px;
             color: white;
