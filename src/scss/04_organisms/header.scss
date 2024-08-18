@@ -13,7 +13,7 @@
     }
 
     &__level {
-        background-color: white;
+        background-color: $secondaryBackgroundColor;
         color: $secondaryInBoxes;
         font-weight: bold;
         width: fit-content;
@@ -32,6 +32,9 @@
         &__mainBadge {
             margin-left: -32px;
             margin-top: -16px;
+        }
+        &__subtitle {
+            color: $titleColor;
         }
     }
 

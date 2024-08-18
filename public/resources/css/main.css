@@ -300,6 +300,7 @@ h6 {
 }
 .achievementCard__content__description {
   width: 80%;
+  color: #fefdfe;
 }
 .achievementCard__content__description__number {
   margin-right: -25%;
@@ -309,7 +310,7 @@ h6 {
   width: 100%;
   height: 7px;
   border-radius: 10px;
-  background-color: #DCB0EF;
+  background-color: #dcb0ef;
 }
 .achievementCard__content__progressbarFilled {
   margin-top: -7px;
@@ -492,7 +493,7 @@ h6 {
   justify-content: space-between;
 }
 .header__level {
-  background-color: white;
+  background-color: #241a28;
   color: #58b7b7;
   font-weight: bold;
   width: fit-content;
@@ -510,6 +511,9 @@ h6 {
 .header__badges__mainBadge {
   margin-left: -32px;
   margin-top: -16px;
+}
+.header__badges__subtitle {
+  color: #fefdfe;
 }
 .header__badges p {
   margin-top: -32px;

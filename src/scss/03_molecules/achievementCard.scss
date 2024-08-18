@@ -15,7 +15,6 @@
                 margin-left: -50px;
                 margin-top: -20px;
             }
-
         }
 
         &__text {
@@ -35,11 +34,11 @@
 
         &__description {
             width: 80%;
+            color: $textColor;
 
             &__number {
                 margin-right: -25%;
                 float: right;
-
             }
         }
 
@@ -47,7 +46,7 @@
             width: 100%;
             height: 7px;
             border-radius: 10px;
-            background-color: #DCB0EF;
+            background-color: #dcb0ef;
         }
 
         &__progressbarFilled {

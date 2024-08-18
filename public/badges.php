@@ -19,7 +19,7 @@
             <img src="./resources/images/badge1.png" alt="">
             <img class="header__badges__mainBadge" src="./resources/images/badge2.png" alt="">
             <img src="./resources/images/badgeLock.png" alt="">
-            <p>Enquête ontdekker</p>
+            <p class="header__badges__subtitle">Enquête ontdekker</p>
         </div>
         <div class="header__buttons">
             <a class="header__buttons__text" href="./rewards.php">Beloningen</a>
