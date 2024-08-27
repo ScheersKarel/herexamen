@@ -2,8 +2,7 @@
     position: relative;
     width: 60px;
     height: 30px;
-    background-color: #e0b3ff;
-    /* Lichtpaars */
+    background-color: #e0b3ff; /* Light purple (default) */
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -13,8 +12,7 @@
     margin-top: 6px;
 
     &__checkbox {
-        display: none;
-        /* Verbergt de checkbox */
+        display: none; /* Hide the checkbox */
     }
 
     &__label {
@@ -36,8 +34,14 @@
         margin-top: 4px;
     }
 
-    &__checkbox:checked+&__label .toggle-switch__circle {
-        transform: translateX(30px);
-        /* Verplaatst de cirkel naar rechts wanneer ingeschakeld */
+    &__checkbox:checked + &__label .toggle-switch__circle {
+        transform: translateX(
+            30px
+        ); /* Move the circle to the right when activated */
     }
+}
+
+/* Optional: Additional dark mode styles if needed */
+.dark-mode .toggle-switch {
+    background-color: #333; /* Dark background when dark mode is on */
 }

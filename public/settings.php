@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instellingen</title>
     <link rel="stylesheet" href="./resources/css/main.css">
+    
 </head>
 
 <body>
@@ -22,7 +23,7 @@
                 <input type="checkbox" id="toggle" class="toggle-switch__checkbox">
                 <label for="toggle" class="toggle-switch__label">
                     <span class="toggle-switch__circle">
-                        <img src="./resources/images/darkMode.png" alt="">
+                        <img id="modeImage" src="./resources/images/darkMode.png" alt="">
                     </span>
                 </label>
             </div>
@@ -36,6 +37,7 @@
     <?php
     include('./components/footer.php');
     ?>
+    <script src="./resources/js/main.js"></script>
 </body>
 
 </html>
