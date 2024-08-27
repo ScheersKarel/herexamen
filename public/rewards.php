@@ -10,7 +10,7 @@
 
 <body>
     <div class="header">
-        <img class="header__logo" src="resources/images/logoWhite.png">
+        <img class="header__logo" src="resources/images/logoWhite.png"><br>
         <img class="header__pointsImg" src="resources/images/coin.png" alt="">
 
         <div class="header__collectPoints">

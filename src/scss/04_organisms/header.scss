@@ -2,9 +2,9 @@
     background: linear-gradient(to bottom, #cc56ff, $secondaryBackgroundColor);
 
     &__logo {
-        margin-left: 10%;
-        margin-top: 32px;
+        margin-top: 64px;
         width: 28%;
+        margin-left: 5%;
     }
 
     &__images {
@@ -47,9 +47,9 @@
     }
 
     &__pointsImg {
-        width: 30%;
-        margin-left: 35%;
-        margin-top: 32px;
+        width: 36%;
+        margin-left: 32%;
+        margin-top: 16px;
     }
 
     &__collectPoints {
