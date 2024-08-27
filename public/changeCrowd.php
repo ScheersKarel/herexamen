@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drukte invullen</title>
-    <link rel="stylesheet" href="./resources/css/main.css">
-</head>
-
-<body>
+<?php
+    $pageTitle = 'Drukte invullen';
+    include('./components/header.php');
+?>
     <div class="container">
         <img class="logo" src="resources/images/logo.png"><br>
         <a href="podiumdrukte.php"><img class="backArrowSmallMargin" src="resources/images/backArrow.png" alt=""></a>
@@ -30,6 +23,3 @@
     <?php
     include('./components/footer.php');
     ?>
-</body>
-
-</html>

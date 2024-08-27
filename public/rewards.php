@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rewards</title>
-    <link rel="stylesheet" href="./resources/css/main.css">
-</head>
-
-<body>
+<?php
+    $pageTitle = 'Rewards';
+    include('./components/header.php');
+?>
     <div class="header">
         <img class="header__logo" src="resources/images/logoWhite.png"><br>
         <img class="header__pointsImg" src="resources/images/coin.png" alt="">
@@ -88,6 +81,3 @@
     <?php
     include('./components/footer.php');
     ?>
-</body>
-
-</html>

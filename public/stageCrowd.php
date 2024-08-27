@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Podiumdrukte</title>
-    <link rel="stylesheet" href="./resources/css/main.css">
-</head>
-
-<body>
+<?php
+    $pageTitle = 'Podia drukte';
+    include('./components/header.php');
+?>
     <div class="container">
         <img class="logo" src="resources/images/logo.png">
 
@@ -72,6 +65,3 @@
     <?php
     include('./components/footer.php');
     ?>
-</body>
-
-</html>

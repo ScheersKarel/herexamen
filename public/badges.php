@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badges</title>
-    <link rel="stylesheet" href="./resources/css/main.css">
-</head>
-
-<body>
+<?php
+    $pageTitle = 'Badges';
+    include('./components/header.php');
+?>
     <div class="header">
         <div class="header__images">
             <img class="header__logo" src="resources/images/logoWhite.png">
@@ -105,6 +98,3 @@
     <?php
     include('./components/footer.php');
     ?>
-</body>
-
-</html>

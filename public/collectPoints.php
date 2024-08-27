@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./resources/css/main.css" />
-        <title>Punten verzamelen</title>
-    </head>
-
-    <body>
+<?php
+    $pageTitle = 'Punten verzamelen';
+    include('./components/header.php');
+?>
         <div class="container">
             <div class="collect">
                 <img
@@ -35,5 +29,6 @@
                 </button>
             </div>
         </div>
-    </body>
-</html>
+    <?php
+    include('./components/footer.php');
+    ?>

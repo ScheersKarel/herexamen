@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./resources/css/main.css">
-    <title>Home</title>
-</head>
+<?php
+    $pageTitle = 'Home';
+    include('./components/header.php');
+?>
 
-<body>
-    <div class="container">
+ <div class="container">
 
         <img class="logo" src="resources/images/logo.png">
 
@@ -71,8 +66,4 @@
     <?php
     include('./components/footer.php');
     ?>
-    
-<script src="./resources/js/main.js"></script>
-</body>
 
-</html>

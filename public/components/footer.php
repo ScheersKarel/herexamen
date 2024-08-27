@@ -44,3 +44,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <?php endif; ?>
 
 </footer>
+<script src="./resources/js/main.js"></script>
+</body>
+
+</html>

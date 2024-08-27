@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./resources/css/main.css" />
-        <title>Wachtwoord vergeten?</title>
-    </head>
-
-    <body>
+<?php
+    $pageTitle = 'Wachtworod veranderen';
+    include('./components/header.php');
+?>
         <div class="container">
             <img class="cornerR" src="resources/images/cornerR.png" alt="" />
 
@@ -49,11 +43,12 @@
                     </button>
                 </form>
 
-                <a class="inlogForm__withoutPassword" href="./login.html">
+                <a class="inlogForm__withoutPassword" href="./login.php">
                     Doorgaan zonder wachtwoord te veranderen</a
                 >
             </div>
             <img class="cornerL" src="resources/images/cornerL.png" alt="" />
         </div>
-    </body>
-</html>
+ <?php
+    include('./components/footer.php');
+    ?>

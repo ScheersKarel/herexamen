@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./resources/css/main.css" />
-        <title>inloggen</title>
-    </head>
-
-    <body>
+<?php
+    $pageTitle = 'Login';
+    include('./components/header.php');
+?>
         <div class="container">
             <img class="cornerR" src="resources/images/cornerR.png" alt="" />
 
@@ -42,7 +36,7 @@
 
                     <!-- link 'wachtwoord vergeten' -->
                     <a
-                        href="./forgotPassword.html"
+                        href="./forgotPassword.php"
                         class="inlogForm__forgotPassword"
                         ><u>Wachtwoord vergeten?</u>
                     </a>
@@ -69,5 +63,6 @@
             </div>
             <img class="cornerL" src="resources/images/cornerL.png" alt="" />
         </div>
-    </body>
-</html>
+   <?php
+    include('./components/footer.php');
+    ?>
