@@ -3,9 +3,9 @@
     include('./components/header.php');
 ?>
     <div class="container">
-        <a href="surveyQ1.php"><img class="backArrow" src="resources/images/backArrow.png" alt=""></a>
+        <a href="surveyQ1.php"><img class="backArrow" src="resources/images/backArrow.png" alt="Back arrow"></a>
 
-        <img src="resources/images/progressbarSurvey2.png" alt="" class="surveyProgres">
+        <img src="resources/images/progressbarSurvey2.png" alt="Progress bar of survey (2/3)" class="surveyProgres">
 
         <div class="surveyContent">
             <p class="surveyContent__number">Vraag <span>2</span>/3</p>

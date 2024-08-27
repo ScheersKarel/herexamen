@@ -3,13 +3,13 @@
     include('./components/header.php');
 ?>
     <div class="container">
-        <img class="logo" src="resources/images/logo.png">
+        <img class="logo" src="resources/images/logo.png" alt="KDG logo">
 
         <h4>Live drukte aan podia</h4>
 
         <div class="dropdown">
             <button class="dropdown__button">Mainstage</button>
-            <img class="dropdown__arrow" src="./resources/images/downArrow.png" alt="">
+            <img class="dropdown__arrow" src="./resources/images/downArrow.png" alt="Arrow">
         </div>
 
         <!-- bar graff -->

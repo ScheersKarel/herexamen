@@ -7,7 +7,7 @@
                 <img
                     class="collect__image"
                     src="resources/images/coin.png"
-                    alt=""
+                    alt="Big blue coin with star in the middle"
                 />
 
                 <h1 class="collect__title">Bedankt!</h1>
@@ -17,7 +17,7 @@
                 </p>
 
                 <div class="collect__points">
-                    <img src="resources/images/points.png" alt="" />
+                    <img src="resources/images/points.png" alt="small blue coin with star in the middle" />
                     <p>+250</p>
                 </div>
 
@@ -25,7 +25,7 @@
                     class="collect__button"
                     onclick="location.href='./rewards.php';"
                 >
-                    <img src="resources/images/check.png" alt="" />Verzamelen
+                    <img src="resources/images/check.png" alt="check icon" />Verzamelen
                 </button>
             </div>
         </div>

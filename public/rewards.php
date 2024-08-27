@@ -3,8 +3,8 @@
     include('./components/header.php');
 ?>
     <div class="header">
-        <img class="header__logo" src="resources/images/logoWhite.png"><br>
-        <img class="header__pointsImg" src="resources/images/coin.png" alt="">
+        <img class="header__logo" src="resources/images/logoWhite.png" alt="KDG logo"><br>
+        <img class="header__pointsImg" src="resources/images/coin.png" alt="big blue coin with star in the middle">
 
         <div class="header__collectPoints">
             <p>375 Punten</p>
@@ -19,7 +19,7 @@
 
         <!-- Bier kaart  -->
         <div class="reward__card">
-            <img class="reward__card__image" src="resources/images/beer.png" alt="">
+            <img class="reward__card__image" src="resources/images/beer.png" alt="beer icon">
             <div class="reward__card__content">
                 <p class="reward__card__content__name">Bier 33cl</p>
                 <p class="reward__card__content__points"><span class="reward__card__content__points__bold">100%</span>
@@ -38,7 +38,7 @@
 
         <!-- mojito kaart  -->
         <div class="reward__card">
-            <img class="reward__card__image" src="resources/images/mojito.png" alt="">
+            <img class="reward__card__image" src="resources/images/mojito.png" alt="mojito icon">
             <div class="reward__card__content">
                 <p class="reward__card__content__name">Mojito</p>
                 <p class="reward__card__content__points"><span class="reward__card__content__points__bold">93%</span>
@@ -57,7 +57,7 @@
 
         <!-- Frietjes + snack kaart  -->
         <div class="reward__card">
-            <img class="reward__card__image" src="resources/images/friet.png" alt="">
+            <img class="reward__card__image" src="resources/images/friet.png" alt="fries icon">
             <div class="reward__card__content">
                 <p class="reward__card__content__name">Frietjes + snack</p>
                 <p class="reward__card__content__points"><span class="reward__card__content__points__bold">19%</span>

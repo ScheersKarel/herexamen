@@ -6,11 +6,11 @@
 
  <div class="container">
 
-        <img class="logo" src="resources/images/logo.png">
+        <img class="logo" src="resources/images/logo.png" alt="KDG logo">
 
         <!-- point amount right top -->
         <div class="points">
-            <img src="resources/images/points.png" alt="">
+            <img src="resources/images/points.png" alt="small blue coin with star in the middle">
             <p>375 punten</p>
         </div>
 
@@ -41,7 +41,7 @@
 
         <!-- first reward card -->
         <div class="reward__card">
-            <img class="reward__card__image" src="resources/images/mojito.png" alt="">
+            <img class="reward__card__image" src="resources/images/mojito.png" alt="mojito icon">
             <div class="reward__card__content">
                 <p class="reward__card__content__name">Mojito</p>
                 <p class="reward__card__content__points">nog <span class="reward__card__content__points__bold">25</span>
@@ -53,7 +53,7 @@
 
         <!-- second reward card -->
         <div class="reward__card">
-            <img class="reward__card__image" src="resources/images/cheeseburger.png" alt="">
+            <img class="reward__card__image" src="resources/images/cheeseburger.png" alt="burger icon">
             <div class="reward__card__content">
                 <p class="reward__card__content__name">Cheeseburger</p>
                 <p class="reward__card__content__points">nog <span class="reward__card__content__points__bold">750</span> punten</p>

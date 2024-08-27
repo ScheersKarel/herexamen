@@ -3,9 +3,9 @@
     include('./components/header.php');
 ?>
         <div class="container">
-            <img class="cornerR" src="resources/images/cornerR.png" alt="" />
+            <img class="cornerR" src="resources/images/cornerR.png" alt="colorful triangle shape in top right corner" />
 
-            <img class="logo" src="resources/images/logo.png" />
+            <img class="logo" src="resources/images/logo.png" alt="KDG logo" />
 
             <div class="inlogForm">
                 <h2 class="inlogForm__title">Verander je wachtwoord</h2>
@@ -47,7 +47,7 @@
                     Doorgaan zonder wachtwoord te veranderen</a
                 >
             </div>
-            <img class="cornerL" src="resources/images/cornerL.png" alt="" />
+            <img class="cornerL" src="resources/images/cornerL.png" alt="colorful triangle shape in bottom left corner" />
         </div>
  <?php
     include('./components/footer.php');

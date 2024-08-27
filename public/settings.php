@@ -3,7 +3,7 @@
     include('./components/header.php');
 ?>
     <div class="container">
-        <img class="logo" src="resources/images/logo.png">
+        <img class="logo" src="resources/images/logo.png" alt="KDG logo">
 
         <h2>Instellingen</h2>
 
@@ -15,7 +15,7 @@
                 <input type="checkbox" id="toggle" class="toggle-switch__checkbox">
                 <label for="toggle" class="toggle-switch__label">
                     <span class="toggle-switch__circle">
-                        <img id="modeImage" src="./resources/images/darkMode.png" alt="">
+                        <img id="modeImage" src="./resources/images/darkMode.png" alt="Darkmode slider image (Sun or moon)">
                     </span>
                 </label>
             </div>

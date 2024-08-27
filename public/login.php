@@ -3,9 +3,9 @@
     include('./components/header.php');
 ?>
         <div class="container">
-            <img class="cornerR" src="resources/images/cornerR.png" alt="" />
+            <img class="cornerR" src="resources/images/cornerR.png" alt="colorful triangle shape in top right corner" />
 
-            <img class="logo" src="resources/images/logo.png" />
+            <img class="logo" src="resources/images/logo.png" alt="KDG logo" />
 
             <div class="inlogForm">
                 <h2 class="inlogForm__title">Welkom!</h2>
@@ -56,12 +56,12 @@
                 <!-- alternatieve inlog mogelijkheden -->
                 <p class="inlogForm__otherlogin">of log in met</p>
                 <div class="inlogForm__socials">
-                    <img src="resources/images/facebook.png" alt="" />
-                    <img src="resources/images/google.png" alt="" />
-                    <img src="resources/images/apple.png" alt="" />
+                    <img src="resources/images/facebook.png" alt="Facebook logo" />
+                    <img src="resources/images/google.png" alt="Google logo" />
+                    <img src="resources/images/apple.png" alt="Apple logo" />
                 </div>
             </div>
-            <img class="cornerL" src="resources/images/cornerL.png" alt="" />
+            <img class="cornerL" src="resources/images/cornerL.png" alt="colorful triangle shape in bottom left corner" />
         </div>
    <?php
     include('./components/footer.php');

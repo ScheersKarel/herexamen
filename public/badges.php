@@ -4,15 +4,15 @@
 ?>
     <div class="header">
         <div class="header__images">
-            <img class="header__logo" src="resources/images/logoWhite.png">
+            <img class="header__logo" src="resources/images/logoWhite.png" alt="KDG logo">
             <div class="header__level">Level 2</div>
         </div>
 
         <!-- header images -->
         <div class="header__badges">
-            <img src="./resources/images/badge1.png" alt="">
-            <img class="header__badges__mainBadge" src="./resources/images/badge2.png" alt="">
-            <img src="./resources/images/badgeLock.png" alt="">
+            <img src="./resources/images/badge1.png" alt="colorfull girl partying badge">
+            <img class="header__badges__mainBadge" src="./resources/images/badge2.png" alt="colorfull compass badge">
+            <img src="./resources/images/badgeLock.png" alt="Lock badge">
             <p class="header__badges__subtitle">Enquête ontdekker</p>
         </div>
 
@@ -27,7 +27,7 @@
         <!-- achievementCard 1 -->
         <div class="achievementCard">
             <div class="achievementCard__image">
-                <img class="achievementCard__image__img" src="./resources/images/badge1.png" alt="">
+                <img class="achievementCard__image__img" src="./resources/images/badge1.png" alt="colorfull girl partying badge">
                 <p class="achievementCard__image__text">Level 1</p>
             </div>
             <div class="achievementCard__content">
@@ -41,7 +41,7 @@
         <!-- achievementCard 2 -->
         <div class="achievementCard">
             <div class="achievementCard__image">
-                <img class="achievementCard__image__img" src="./resources/images/badge2small.png" alt="">
+                <img class="achievementCard__image__img" src="./resources/images/badge2small.png" alt="colorfull compass badge">
                 <p class="achievementCard__image__text">Level 2</p>
             </div>
             <div class="achievementCard__content">
@@ -55,7 +55,7 @@
         <!-- achievementCard 3 -->
         <div class="achievementCard">
             <div class="achievementCard__image">
-                <img class="achievementCard__image__img__lock" src="./resources/images/badgeLock.png" alt="">
+                <img class="achievementCard__image__img__lock" src="./resources/images/badgeLock.png" alt="Lock badge">
                 <p class="achievementCard__image__text">Level 3</p>
             </div>
             <div class="achievementCard__content">
@@ -69,7 +69,7 @@
         <!-- achievementCard 4 -->
         <div class="achievementCard">
             <div class="achievementCard__image">
-                <img class="achievementCard__image__img__lock" src="./resources/images/badgeLock.png" alt="">
+                <img class="achievementCard__image__img__lock" src="./resources/images/badgeLock.png" alt="Lock badge">
                 <p class="achievementCard__image__text">Level 4</p>
             </div>
             <div class="achievementCard__content">
@@ -83,7 +83,7 @@
         <!-- achievementCard 5 -->
         <div class="achievementCard">
             <div class="achievementCard__image">
-                <img class="achievementCard__image__img__lock" src="./resources/images/badgeLock.png" alt="">
+                <img class="achievementCard__image__img__lock" src="./resources/images/badgeLock.png" alt="Lock badge">
                 <p class="achievementCard__image__text">Level 5</p>
             </div>
             <div class="achievementCard__content">
