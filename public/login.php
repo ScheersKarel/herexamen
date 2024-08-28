@@ -63,6 +63,5 @@
             </div>
             <img class="cornerL" src="resources/images/cornerL.png" alt="colorful triangle shape in bottom left corner" />
         </div>
-   <?php
-    include('./components/footer.php');
-    ?>
+  </body>
+  </html
